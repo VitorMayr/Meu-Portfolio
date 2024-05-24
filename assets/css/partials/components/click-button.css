@@ -13,7 +13,7 @@
 }
 
 .click-button:hover{
-    box-shadow: 0 0 1rem black;
+    box-shadow: 0 0 1.5rem rgba(255, 255, 255, 0.137);
     background-color: var(--color-2-hover);
     transform: scale(1.1);
     transition: all 100ms ease-in-out;
