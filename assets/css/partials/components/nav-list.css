@@ -8,12 +8,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    font-size: 2rem;
     width: 12rem;
     height: 100%;
 }
 
 .nav-list .link:hover{
     background-color: var(--color-1-press);
+    font-size: 1.7rem;
 }

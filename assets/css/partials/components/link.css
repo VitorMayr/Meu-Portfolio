@@ -1,6 +1,9 @@
 .link{
+    font-size: 1.4rem;
     font-family: var(--font-second);
     text-decoration: none;
     color: var(--color-white);
     transition: background-color 150ms ease-in-out;
+    transition: font-size 150ms ease-in-out;
+   
 }
