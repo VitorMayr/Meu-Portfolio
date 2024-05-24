@@ -1,12 +1,19 @@
 :root{
     --color-1: #080F26;
-    --color-2: #155fbf;
-    --color-3: #1146bc;
+    --color-1-1: #071235;
+    --color-1-press: #081c5e;
+    --color-2: #1146bc;
+    --color-3: #155fbf;
     --color-4: #870dd9;
     --color-white: #fff;
     --color-black: #000;
 
     --font-main: 'Preahvihear', sans-serif;
     --font-second: "Plus Jakarta Sans", sans-serif;
+
+}
+
+*{
+    font-size: 62.5%;
 }
 
