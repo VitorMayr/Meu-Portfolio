@@ -1,9 +1,9 @@
 .switch-button{
-    opacity: 0;
     position: absolute;
+    cursor: pointer;
     left: -900000px;
     top: -900000px;
-    cursor: pointer;
+    opacity: 0;
 }
 
 .switch-button + label{
@@ -15,14 +15,13 @@
 
 .switch-button + label::after{
     position: absolute;
-    
     left: .1rem;
-    content: '';
     width: 2.3rem;
     height: 2.3rem;
+    content: '';
+    border-radius: 1.15rem;
     background-image: url(../../../images/brazil-.png);
     background-size: contain;
-    border-radius: 1.15rem;
     transition: all 300ms ease-in-out;
 }
 
@@ -30,17 +29,13 @@
     content: '';
     width: 5rem;
     height: 2.5rem;
-    background-color: var(--color-1);
     border-radius: 1.25rem;
+    background-color: var(--color-1);
+    box-shadow: inset 0 0 .5rem rgba(0, 0, 0, 0.308);
 }
 
 .switch-button:checked + label::after{
     transform: translateX(2.5rem);
     background-image: url(../../../images/united-states.png);
     background-size: contain;
-}
-
-
-.switch-button:checked + label{
- 
-}
+} 
