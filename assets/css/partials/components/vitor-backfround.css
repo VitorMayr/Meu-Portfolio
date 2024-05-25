@@ -1,0 +1,8 @@
+.vitor-background{
+    background-image: url(../../../images/eu.png);
+    position: absolute;
+    z-index: 10;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+}
