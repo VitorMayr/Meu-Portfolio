@@ -2,4 +2,6 @@
 @import 'components/nav-list.css';
 @import 'components/link.css';
 @import 'components/click-button.css';
-@import 'components/wrapper-header.css'
+@import 'components/wrapper-header.css';
+@import 'components/main-section.css';
+@import 'components/body.css'
