@@ -1,0 +1,9 @@
+.title{
+    font-size: 9rem;
+    font-family: var(--font-title);
+    font-weight: 800;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #870dd9;
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0 0 5rem  #870dd931;
+}
