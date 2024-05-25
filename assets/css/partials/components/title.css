@@ -7,3 +7,9 @@
     color: rgba(0, 0, 0, 0);
     text-shadow: 0 0 5rem  #870dd931;
 }
+
+.title.-second{
+    text-align: center;
+    font-size: 5rem;
+    transform: translate(0, 5rem);
+}
