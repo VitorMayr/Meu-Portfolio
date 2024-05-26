@@ -2,9 +2,6 @@
     display: grid;
     grid-template-columns: 10rem 20rem;
     grid-template-rows: repeat(2, 5rem);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    height: 10rem;
     align-items: center;
     margin-bottom: 5rem;
 }
@@ -39,7 +36,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(90deg, #9f3de0, #870dd9, #6c0aad, #870dd9, #9f3de0);
+    background: linear-gradient(90deg, #b76de8,#9f3de0, #870dd9,#6c0aad, #870dd9, #9f3de0, #b76de8);
     background-size: 500%;
     animation: AnimarLoader 5s linear infinite;
 }
@@ -48,7 +45,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(90deg,#9f3de0, #870dd9, #6c0aad, #870dd9, #9f3de0);
+    background: linear-gradient(90deg, #b76de8,#9f3de0, #870dd9, #6c0aad, #870dd9, #9f3de0, #b76de8);
     background-size: 500%;
     animation: AnimarLoader 5s linear infinite;
     filter: blur(15px);

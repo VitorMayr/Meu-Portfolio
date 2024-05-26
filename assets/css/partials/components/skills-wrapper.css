@@ -1,8 +1,9 @@
 .skills-wrapper{
     display: inline-flex;
-    height: 20rem;
+    height: auto;
     width: 70rem;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
+
 }
