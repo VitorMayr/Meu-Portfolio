@@ -1,0 +1,50 @@
+.line-wrapper{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.line-wrapper .line{
+    position: relative;
+    height: .5rem;
+    width: 100%;
+    background-color: var(--color-4);
+    margin: .5rem 0;
+    transform: rotate(-2deg);
+    overflow:visible;
+}
+
+.line-wrapper .line::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, #b76de8,#9f3de0, #870dd9,#6c0aad, #870dd9, #9f3de0, #b76de8);
+    background-size: 250%;
+    animation: AnimarLine 20s linear infinite;
+}
+
+.line-wrapper .line::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, #b76de8,#9f3de0, #870dd9, #6c0aad, #870dd9, #9f3de0, #b76de8);
+    background-size: 250%;
+    animation: AnimarLine 20s linear infinite;
+    filter: blur(15px);
+
+}
+
+@keyframes AnimarLine {
+    0%{
+        background-position: 0 0;
+    }
+    0%{
+        background-position: 1200% 0;
+    }
+}

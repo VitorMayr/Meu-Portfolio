@@ -1,18 +1,30 @@
 .main-section{
+    display: block;
     position: relative;
     width: 100%;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.192);
+    height: 100vh;
 }
 
 .main-section.-first{
-    height: 100vh;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.192);
     
 }
 
 .main-section.-second{
-    position: absolute;
-    text-align: center;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    justify-content: center;
+    align-items: center;
     background-color: var(--color-1);
     z-index: -1;
+}
 
+.main-section.-third{
+    background: rgb(8,15,38);
+}
+
+
+
+.main-section.-fuor{
+    background-color: var(--color-1);
 }
