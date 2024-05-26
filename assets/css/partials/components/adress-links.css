@@ -1,0 +1,25 @@
+.adress-links{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: rgb(135,15,246);
+    background: radial-gradient(circle, rgba(134, 15, 246, 0.336) 0%, rgba(8,15,38,1) 15%);
+}
+
+.adress-links a{
+    display: flex;
+    align-items: center;
+    font-family: var(--font-second);
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.adress-links img{
+    margin-right: 1rem;
+    filter: invert();
+}
