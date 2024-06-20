@@ -62,17 +62,17 @@
 }
 
 .skill:nth-child(1) .progress-bar .snow{
-    width: 90%;
+    width: 15%;
 }
 
 .skill:nth-child(2) .progress-bar .snow{
-    width: 5%;
+    width: 70%;
 }
 
 .skill:nth-child(3) .progress-bar .snow{
-    width: 50%;
+    width: 80%;
 }
 
 .skill:nth-child(4) .progress-bar .snow{
-    width: 60%;
+    width: 85%;
 }
